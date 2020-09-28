@@ -1,0 +1,231 @@
+/* HTML Element */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.center{
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+}
+
+
+/* Navigation Section */
+
+#nav{
+margin-bottom: 5%;
+padding: 0;
+}
+
+.nav-item{  
+    margin: 0 18px ;
+}
+
+.navbar-nav{
+    font-size: 1.3rem;
+}
+
+.nav-link{
+    transition: all 0.8s ease-out;
+}
+
+#brand{
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: "Ubuntu";
+}
+
+
+/* Title Section */
+
+#title{
+    background-color: #ff4c68;
+}
+
+.container{
+    padding: 3rem 0;
+}
+
+.heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;  
+}
+
+.title{
+    margin-bottom: 4%;
+}
+
+.download-btn{
+    margin: 20px 50px 20px 0  ;
+}
+
+.btn-left{
+    text-align: left;
+}
+
+.dog-img{
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    left: 17%;
+}
+
+
+/* Features Section */
+
+#feature{
+    padding : 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.space{
+    padding: 0 2rem;
+}
+
+.f-title{
+    font-size: 1.2rem;
+
+}
+
+.f-txt{ 
+    color: #8f8f8f;
+    font-size: 1.2rem;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1.5rem;   
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+
+/* Testimonials section */
+
+#testimonials {
+    background-color:#ef8172;
+    color: #fff;
+    margin: 3.5rem 0 2.5;
+}
+
+.testimonial-h2{
+    font-size: 3rem;
+    font-family: "Montserrat-Bold";
+    line-height: 1.5;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 18px 20px;
+}
+
+em{
+    font-size: 1.3rem;
+}
+
+.carousel-item{
+    padding : 7% 15% 3%;
+}
+
+
+/* press Section */
+
+#press{
+background-color:#ef8172;
+padding : 4%;
+
+}
+
+.press-img{
+    margin: 10px 15px;   
+    width: 15%;
+}
+
+
+/* Pricing Section */
+
+#pricing{
+    padding: 100px;
+}
+
+#k{
+    padding: 3% 3%;
+}
+
+
+/* CTA Section */
+
+#call{
+    background-color: #ff4c68;
+    padding : 7% 15%;
+}
+
+.head-3 h3{
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.btn-space{
+    margin: 2%;
+    padding: 3%;
+}
+
+
+/* Footer Section */
+.end{
+    background-color: #fff;
+    margin: 8rem 5px;
+}
+
+.footer-icon{
+    margin: 20px 10px;
+}
+
+.footer-para{
+    color: #8f8f8f;
+    font-size: 1.2rem;
+}
+
+.footer-para:hover{
+    text-decoration: underline;
+    color: #ff4c68;
+}
+
+.footer-icon:hover{
+    color: #ff4c68;
+}
+
+/* Media Queries Start */
+
+@media (max-width : 993px){
+    
+    /* Title Section */
+  
+    .title{
+        text-align: center;
+    }
+
+    .left{
+        text-align: center;
+    }
+
+    .download-btn{
+        text-align: center;
+    }
+
+    .dog-img{
+        position: static;
+        transform: rotate(0);   
+        width: 60%;
+        margin: 5px auto;
+    }
+
+}
